@@ -38,6 +38,9 @@ export default function Footer() {
           <p className="font-sans text-[0.68rem] text-brown/25 tracking-wide">
             © 2025 Ash &amp; Birch Design Studio &ensp;·&ensp; Chicago, IL
           </p>
+          <p className="font-sans text-[0.62rem] text-brown/20 italic">
+            Concept build for JBAR Design Studio. Not a real business.
+          </p>
         </div>
       </div>
     </footer>

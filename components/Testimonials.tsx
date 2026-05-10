@@ -20,7 +20,7 @@ const testimonials = [
       "I send my mother a bouquet every month through Ash & Birch. She calls me every single time it arrives. Worth every penny.",
     name: "Rachel F.",
     location: "Wicker Park",
-    photo: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&q=80",
+    photo: null,
   },
 ];
 
@@ -59,8 +59,8 @@ export default function Testimonials() {
                     />
                   ) : (
                     <div className="w-9 h-9 rounded-full bg-rosedim/30 flex items-center justify-center flex-shrink-0">
-                      <span className="font-cormorant italic text-rose text-[0.9rem]">
-                        {t.name[0]}
+                      <span className="font-cormorant italic text-rose text-[0.7rem] tracking-tight">
+                        {t.name.split(" ").map((w: string) => w[0]).join("")}
                       </span>
                     </div>
                   )}
