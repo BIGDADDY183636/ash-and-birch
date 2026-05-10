@@ -6,7 +6,7 @@ const bouquets = [
     price: "$45 / week",
     description:
       "Wild-gathered stems in a loose, garden-fresh arrangement. Seasonal blooms, nothing repeated twice.",
-    img: "https://images.unsplash.com/photo-1490750967868-88df5691cc8c?w=800&q=80",
+    img: "https://images.unsplash.com/photo-1487070183336-b863922373d4?w=800&q=80",
     alt: "Loose wildflower bouquet",
   },
   {
