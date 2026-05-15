@@ -36,7 +36,7 @@ export default function Footer() {
         </div>
         <div className="pt-8 border-t border-brown/[0.06]">
           <p className="font-sans text-[0.68rem] text-brown/25 tracking-wide">
-            © 2025 Ash &amp; Birch Design Studio &ensp;·&ensp; Chicago, IL
+            © 2026 Ash &amp; Birch &ensp;·&ensp; Chicago, IL
           </p>
           <p className="font-sans text-[0.62rem] text-brown/20 italic">
             Concept build for JBAR Design Studio. Not a real business.
